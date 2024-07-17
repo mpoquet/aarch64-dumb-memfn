@@ -14,12 +14,12 @@ Features
 - Tested against glibc's implementation (test base is tiny, feel free to PR missing cases)
 
 Non goals
-- Optimization: all operations are done byte-by-byte.
+- Optimization: all operations are done byte-by-byte.  
   If you want an optimized version please refer to [ARM's implementation](https://github.com/ARM-software/optimized-routines/tree/master/string/aarch64).
 
 ## Build & test
-Compile examples: `make`
-Run tests: `make test`
+- Compile examples: `make`
+- Run tests: `make test`
 
 I needed a cross compiler and emulator to test this, you can use the following Nix environments to get them.
 - Cross compiler: `nix develop .#cross-compiler`
