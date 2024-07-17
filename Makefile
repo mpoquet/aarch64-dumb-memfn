@@ -3,7 +3,7 @@ CFLAGS ?= -Wall -Wextra
 
 .PHONY: all clean test
 
-all: memcpy-libc memcpy-diy-asm memcpy-diy-c  memset-libc memset-diy-asm memset-diy-c memcmp-libc memcmp-diy-asm memcmp-diy-c memmove-libc memmove-diy-asm memmove-diy-c
+all: memcpy-libc memcpy-diy-asm memcpy-diy-c memset-libc memset-diy-asm memset-diy-c memcmp-libc memcmp-diy-asm memcmp-diy-c memmove-libc memmove-diy-asm memmove-diy-c
 
 clean:
 	rm -f memcpy-libc memcpy-diy-asm memcpy-diy-c
