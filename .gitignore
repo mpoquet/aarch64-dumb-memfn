@@ -1,0 +1,3 @@
+mem*.out
+mem*-libc
+mem*-diy-*
